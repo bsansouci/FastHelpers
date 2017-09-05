@@ -1,0 +1,5 @@
+{
+  "name": "FastHelpersNative",
+  "sources": "src",
+  "static_libraries": ["lib/bs/fun.o"],
+}
