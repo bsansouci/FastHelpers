@@ -1,4 +1,5 @@
 {
   "name": "FastHelpersJs",
   "sources": "src",
+  "allowed-build-kinds": "js"
 }
