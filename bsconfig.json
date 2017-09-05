@@ -2,4 +2,5 @@
   "name": "FastHelpersNative",
   "sources": "src",
   "static_libraries": ["lib/bs/fun.o"],
+  "allowed-build-kinds": ["native", "bytecode"]
 }
