@@ -4,4 +4,5 @@
   "static_libraries": ["lib/bs/fun.o"],
   "allowed-build-kinds": ["native", "bytecode"],
   "build-script": "make",
+  "refmt": 3,
 }
