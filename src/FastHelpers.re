@@ -1,5 +1,6 @@
-external get : 'a => int => 'b = "" [@@bs.get_index];
+[@bs.get_index] external get : ('a, int) => 'b = "";
 
-external set : 'a => int => 'b => unit = "" [@@bs.set_index];
+[@bs.set_index] external set : ('a, int, 'b) => unit = "";
 
-let unsafe_update_float32 arr i ::mul ::add => set arr i (floor (get arr i *. mul +. add));
+let unsafe_update_float32 = (arr, i, ~mul, ~add) =>
+  set(arr, i, floor(get(arr, i) *. mul +. add));
