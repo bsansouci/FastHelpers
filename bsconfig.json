@@ -3,6 +3,6 @@
   "sources": "src",
   "static_libraries": ["lib/bs/fun.o"],
   "allowed-build-kinds": ["native", "bytecode"],
-  "build-script": "make",
+  "build-script": "build_script.re",
   "refmt": 3,
 }
